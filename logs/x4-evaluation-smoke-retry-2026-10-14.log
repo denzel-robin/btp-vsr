@@ -1,0 +1,47 @@
+CRF 18: 31 aligned frames verified
+CRF 23: 31 aligned frames verified
+CRF 28: 31 aligned frames verified
+[
+  {
+    "crf": 18,
+    "method": "bicubic",
+    "frames": 31,
+    "mean_frame_psnr_db": 20.483768386930073,
+    "mean_frame_ssim": 0.8349460976814123
+  },
+  {
+    "crf": 18,
+    "method": "nanovsr",
+    "frames": 31,
+    "mean_frame_psnr_db": 20.622132555958892,
+    "mean_frame_ssim": 0.8129580250560557
+  },
+  {
+    "crf": 23,
+    "method": "bicubic",
+    "frames": 31,
+    "mean_frame_psnr_db": 20.436095878745537,
+    "mean_frame_ssim": 0.8176778554407045
+  },
+  {
+    "crf": 23,
+    "method": "nanovsr",
+    "frames": 31,
+    "mean_frame_psnr_db": 20.55137190513986,
+    "mean_frame_ssim": 0.7980273052470676
+  },
+  {
+    "crf": 28,
+    "method": "bicubic",
+    "frames": 31,
+    "mean_frame_psnr_db": 20.36323660160928,
+    "mean_frame_ssim": 0.8000802485217353
+  },
+  {
+    "crf": 28,
+    "method": "nanovsr",
+    "frames": 31,
+    "mean_frame_psnr_db": 20.484733070080853,
+    "mean_frame_ssim": 0.7836113841870336
+  }
+]

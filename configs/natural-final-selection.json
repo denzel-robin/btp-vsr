@@ -1,0 +1,326 @@
+[
+  {
+    "id": "flowers-direct-cold-repeat1",
+    "asset": "results/natural-2026-10-15/flowers/w640-crf30.1.ts",
+    "mode": "direct",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "flowers-bicubic-cold-repeat1",
+    "asset": "results/natural-2026-10-15/flowers/w320-crf23.ts",
+    "mode": "bicubic",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "flowers-nanovsr-cold-repeat1",
+    "asset": "results/natural-2026-10-15/flowers/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "flowers-nanovsr-warm-repeat1",
+    "asset": "results/natural-2026-10-15/flowers/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "road-direct-cold-repeat1",
+    "asset": "results/natural-2026-10-15/road/w640-crf30.4.ts",
+    "mode": "direct",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "road-bicubic-cold-repeat1",
+    "asset": "results/natural-2026-10-15/road/w320-crf23.ts",
+    "mode": "bicubic",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "road-nanovsr-cold-repeat1",
+    "asset": "results/natural-2026-10-15/road/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "road-nanovsr-warm-repeat1",
+    "asset": "results/natural-2026-10-15/road/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "waterfall-direct-cold-repeat1",
+    "asset": "results/natural-2026-10-15/waterfall/w640-crf29.8.ts",
+    "mode": "direct",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "waterfall-bicubic-cold-repeat1",
+    "asset": "results/natural-2026-10-15/waterfall/w320-crf23.ts",
+    "mode": "bicubic",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "waterfall-nanovsr-cold-repeat1",
+    "asset": "results/natural-2026-10-15/waterfall/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "waterfall-nanovsr-warm-repeat1",
+    "asset": "results/natural-2026-10-15/waterfall/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "flowers-bicubic-cold-repeat2",
+    "asset": "results/natural-2026-10-15/flowers/w320-crf23.ts",
+    "mode": "bicubic",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "flowers-nanovsr-cold-repeat2",
+    "asset": "results/natural-2026-10-15/flowers/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "flowers-nanovsr-warm-repeat2",
+    "asset": "results/natural-2026-10-15/flowers/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "road-direct-cold-repeat2",
+    "asset": "results/natural-2026-10-15/road/w640-crf30.4.ts",
+    "mode": "direct",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "road-bicubic-cold-repeat2",
+    "asset": "results/natural-2026-10-15/road/w320-crf23.ts",
+    "mode": "bicubic",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "road-nanovsr-cold-repeat2",
+    "asset": "results/natural-2026-10-15/road/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "road-nanovsr-warm-repeat2",
+    "asset": "results/natural-2026-10-15/road/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "waterfall-direct-cold-repeat2",
+    "asset": "results/natural-2026-10-15/waterfall/w640-crf29.8.ts",
+    "mode": "direct",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "waterfall-bicubic-cold-repeat2",
+    "asset": "results/natural-2026-10-15/waterfall/w320-crf23.ts",
+    "mode": "bicubic",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "waterfall-nanovsr-cold-repeat2",
+    "asset": "results/natural-2026-10-15/waterfall/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "waterfall-nanovsr-warm-repeat2",
+    "asset": "results/natural-2026-10-15/waterfall/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "flowers-direct-cold-repeat2",
+    "asset": "results/natural-2026-10-15/flowers/w640-crf30.1.ts",
+    "mode": "direct",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "flowers-nanovsr-cold-repeat3",
+    "asset": "results/natural-2026-10-15/flowers/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "flowers-nanovsr-warm-repeat3",
+    "asset": "results/natural-2026-10-15/flowers/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "road-direct-cold-repeat3",
+    "asset": "results/natural-2026-10-15/road/w640-crf30.4.ts",
+    "mode": "direct",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "road-bicubic-cold-repeat3",
+    "asset": "results/natural-2026-10-15/road/w320-crf23.ts",
+    "mode": "bicubic",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "road-nanovsr-cold-repeat3",
+    "asset": "results/natural-2026-10-15/road/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "road-nanovsr-warm-repeat3",
+    "asset": "results/natural-2026-10-15/road/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "waterfall-direct-cold-repeat3",
+    "asset": "results/natural-2026-10-15/waterfall/w640-crf29.8.ts",
+    "mode": "direct",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "waterfall-bicubic-cold-repeat3",
+    "asset": "results/natural-2026-10-15/waterfall/w320-crf23.ts",
+    "mode": "bicubic",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "waterfall-nanovsr-cold-repeat3",
+    "asset": "results/natural-2026-10-15/waterfall/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "waterfall-nanovsr-warm-repeat3",
+    "asset": "results/natural-2026-10-15/waterfall/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "flowers-direct-cold-repeat3",
+    "asset": "results/natural-2026-10-15/flowers/w640-crf30.1.ts",
+    "mode": "direct",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  },
+  {
+    "id": "flowers-bicubic-cold-repeat3",
+    "asset": "results/natural-2026-10-15/flowers/w320-crf23.ts",
+    "mode": "bicubic",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  }
+]

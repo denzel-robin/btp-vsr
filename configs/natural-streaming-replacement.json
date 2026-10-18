@@ -1,0 +1,10 @@
+[
+  {
+    "id": "flowers-direct-cold-repeat1-replacement",
+    "asset": "results/natural-2026-10-15/flowers/w640-crf30.1.ts",
+    "mode": "direct",
+    "warmup_chunks": 0,
+    "repetitions": 1,
+    "buffer_s": 0.35
+  }
+]

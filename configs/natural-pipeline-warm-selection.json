@@ -1,0 +1,83 @@
+[
+  {
+    "id": "flowers-nanovsr-pipeline-warm-repeat1",
+    "asset": "results/natural-2026-10-15/flowers/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "buffer_s": 0.35,
+    "repetitions": 1
+  },
+  {
+    "id": "road-nanovsr-pipeline-warm-repeat1",
+    "asset": "results/natural-2026-10-15/road/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "buffer_s": 0.35,
+    "repetitions": 1
+  },
+  {
+    "id": "waterfall-nanovsr-pipeline-warm-repeat1",
+    "asset": "results/natural-2026-10-15/waterfall/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "buffer_s": 0.35,
+    "repetitions": 1
+  },
+  {
+    "id": "flowers-nanovsr-pipeline-warm-repeat2",
+    "asset": "results/natural-2026-10-15/flowers/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "buffer_s": 0.35,
+    "repetitions": 1
+  },
+  {
+    "id": "road-nanovsr-pipeline-warm-repeat2",
+    "asset": "results/natural-2026-10-15/road/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "buffer_s": 0.35,
+    "repetitions": 1
+  },
+  {
+    "id": "waterfall-nanovsr-pipeline-warm-repeat2",
+    "asset": "results/natural-2026-10-15/waterfall/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "buffer_s": 0.35,
+    "repetitions": 1
+  },
+  {
+    "id": "flowers-nanovsr-pipeline-warm-repeat3",
+    "asset": "results/natural-2026-10-15/flowers/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "buffer_s": 0.35,
+    "repetitions": 1
+  },
+  {
+    "id": "road-nanovsr-pipeline-warm-repeat3",
+    "asset": "results/natural-2026-10-15/road/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "buffer_s": 0.35,
+    "repetitions": 1
+  },
+  {
+    "id": "waterfall-nanovsr-pipeline-warm-repeat3",
+    "asset": "results/natural-2026-10-15/waterfall/w320-crf23.ts",
+    "mode": "nanovsr",
+    "warmup_chunks": 3,
+    "warmup_pipeline": true,
+    "buffer_s": 0.35,
+    "repetitions": 1
+  }
+]

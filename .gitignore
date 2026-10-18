@@ -1,0 +1,51 @@
+# Local Git metadata workaround for the session's protected .git directory
+/.git-local/
+/.tools/
+/.agents/
+/.codex/
+/.aws/
+
+# Python environments and caches
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.netrc
+
+# Upstream repositories and pretrained weights are obtained separately
+/external/
+/models/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Large raw/reconstructed assets; compact reports live in presentation_assets
+/results/
+/videos/
+*.npy
+*.npz
+*.ts
+*.nut
+*.webm
+*.ogv
+*.mkv
+*.zip
+/presentation_assets/demo/road-loop-300s.json
+/logs/*.html
+
+# Editor/OS temporary files
+.DS_Store
+*.swp
+*.swo
+*~

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/home/ibexe/Github/btp-vsr/.venv/bin/python",
+    "scripts/run_streaming_demo.py",
+    "--mode",
+    "nanovsr",
+    "--config",
+    "presentation_assets/configs/stability.json",
+    "--output",
+    "/home/ibexe/Github/btp-vsr/presentation_assets/evidence/stability",
+    "--timeout",
+    "360"
+  ],
+  "returncode": 1
+}

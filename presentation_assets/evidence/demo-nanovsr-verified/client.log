@@ -1,0 +1,66 @@
+qt.qpa.plugin: Could not find the Qt platform plugin "wayland" in "/home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/plugins"
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+{
+  "mode": "nanovsr",
+  "headless": false,
+  "status": "ok",
+  "payload_bytes": 559112,
+  "protocol_bytes": 563803,
+  "decoded_frames": 300,
+  "queue_peak": 6,
+  "unique_render_submissions": 300,
+  "unique_displayed_frames": 300,
+  "displayed_count_scope": "Unique OpenCV imshow/waitKey submissions; headless=0; physical presentation unmeasured",
+  "dropped_frames": 0,
+  "gpu_peak_allocated_bytes": 376262144,
+  "gpu_peak_reserved_bytes": 545259520,
+  "errors": [],
+  "model_load_s": 1.4171654750002745,
+  "warmup_chunks": 3,
+  "warmup_s": 0.4596866599999885,
+  "checkpoint_sha256": "be3df12f2a0d99d9699656aa4a85a51c119663aa84c7040ac6580a0215d0b00e",
+  "decoder_command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-nostdin",
+    "-probesize",
+    "32",
+    "-analyzeduration",
+    "0",
+    "-flags",
+    "low_delay",
+    "-threads",
+    "1",
+    "-f",
+    "mpegts",
+    "-i",
+    "pipe:0",
+    "-map",
+    "0:v:0",
+    "-an",
+    "-fps_mode",
+    "passthrough",
+    "-threads",
+    "1",
+    "-pix_fmt",
+    "rgb24",
+    "-f",
+    "rawvideo",
+    "pipe:1"
+  ],
+  "received_eos": true,
+  "payload_sha256": null,
+  "wall_s_including_model_load": 12.511310066999613,
+  "processing_throughput_fps": 32.152133772950066
+}

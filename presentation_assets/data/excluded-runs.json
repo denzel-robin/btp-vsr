@@ -1,0 +1,12 @@
+{
+  "streaming-main/flowers-direct-cold-repeat1-r1": "CPU metric verifier overlapped this first timing run (verifier finished 08:18:34; run started 08:18:22). Retain evidence, exclude from aggregates, replace after serial batch.",
+  "streaming-main/road-nanovsr-warm-repeat1-r1": "Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup.",
+  "streaming-main/road-nanovsr-warm-repeat2-r1": "Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup.",
+  "streaming-main/flowers-nanovsr-warm-repeat2-r1": "Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup.",
+  "streaming-main/waterfall-nanovsr-warm-repeat1-r1": "Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup.",
+  "streaming-main/flowers-nanovsr-warm-repeat1-r1": "Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup.",
+  "streaming-continuation/flowers-nanovsr-warm-repeat3-r1": "Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup.",
+  "streaming-continuation/road-nanovsr-warm-repeat3-r1": "Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup.",
+  "streaming-continuation/waterfall-nanovsr-warm-repeat2-r1": "Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup.",
+  "streaming-continuation/waterfall-nanovsr-warm-repeat3-r1": "Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup."
+}

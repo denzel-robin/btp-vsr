@@ -1,0 +1,53 @@
+[
+  {
+    "clip": "flowers",
+    "frame": 150,
+    "reference_box": [
+      80,
+      210,
+      192,
+      128
+    ],
+    "display_enlargement": "2x nearest; not scored",
+    "methods": [
+      "Reference",
+      "Bicubic CRF23",
+      "NanoVSR CRF23",
+      "Direct CRF30.1"
+    ]
+  },
+  {
+    "clip": "road",
+    "frame": 150,
+    "reference_box": [
+      320,
+      170,
+      192,
+      128
+    ],
+    "display_enlargement": "2x nearest; not scored",
+    "methods": [
+      "Reference",
+      "Bicubic CRF23",
+      "NanoVSR CRF23",
+      "Direct CRF30.4"
+    ]
+  },
+  {
+    "clip": "waterfall",
+    "frame": 150,
+    "reference_box": [
+      420,
+      110,
+      192,
+      128
+    ],
+    "display_enlargement": "2x nearest; not scored",
+    "methods": [
+      "Reference",
+      "Bicubic CRF23",
+      "NanoVSR CRF23",
+      "Direct CRF29.8"
+    ]
+  }
+]

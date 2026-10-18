@@ -1,0 +1,1868 @@
+{
+  "versions": {
+    "torch": "2.1.0+cu121",
+    "torchvision": "0.16.0+cu121",
+    "numpy": "1.26.4",
+    "mmcv": "2.2.0",
+    "cuda": "12.1"
+  },
+  "checkpoint": "/home/ibexe/Github/btp-vsr/external/cda-vsr/pretrained_models/best.pth",
+  "checkpoint_sha256": "afc8745b890289ae421c500279d9ccf2a27c92cf3e71133b20840c7816e86d3e",
+  "selected_key": "params",
+  "checkpoint_details": {
+    "params": {
+      "present": true,
+      "tensors": 179,
+      "elements": 3110989,
+      "missing": [],
+      "unexpected": [],
+      "shape_mismatches": {},
+      "nonfinite": [],
+      "shapes": {
+        "conv_first.weight": [
+          64,
+          3,
+          3,
+          3
+        ],
+        "conv_first.bias": [
+          64
+        ],
+        "feature_extraction.0.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "feature_extraction.0.conv1.bias": [
+          64
+        ],
+        "feature_extraction.0.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "feature_extraction.0.conv2.bias": [
+          64
+        ],
+        "feature_extraction.1.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "feature_extraction.1.conv1.bias": [
+          64
+        ],
+        "feature_extraction.1.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "feature_extraction.1.conv2.bias": [
+          64
+        ],
+        "feature_extraction.2.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "feature_extraction.2.conv1.bias": [
+          64
+        ],
+        "feature_extraction.2.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "feature_extraction.2.conv2.bias": [
+          64
+        ],
+        "deform_align.conv_offset.0.weight": [
+          16,
+          194,
+          3,
+          3
+        ],
+        "deform_align.conv_offset.0.bias": [
+          16
+        ],
+        "deform_align.conv_offset.2.weight": [
+          16,
+          16,
+          3,
+          3
+        ],
+        "deform_align.conv_offset.2.bias": [
+          16
+        ],
+        "deform_align.conv_offset.4.weight": [
+          16,
+          16,
+          3,
+          3
+        ],
+        "deform_align.conv_offset.4.bias": [
+          16
+        ],
+        "deform_align.conv_offset.6.weight": [
+          12,
+          16,
+          1,
+          1
+        ],
+        "deform_align.conv_offset.6.bias": [
+          12
+        ],
+        "deform_align.dcn.weight": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "conv_weight_l.0.weight": [
+          64,
+          1,
+          1,
+          1
+        ],
+        "conv_weight_l.0.bias": [
+          64
+        ],
+        "conv_weight_l.2.weight": [
+          64,
+          64,
+          1,
+          1
+        ],
+        "conv_weight_l.2.bias": [
+          64
+        ],
+        "conv_weight_l.4.weight": [
+          1,
+          64,
+          1,
+          1
+        ],
+        "conv_weight_l.4.bias": [
+          1
+        ],
+        "convs.0.weight": [
+          64,
+          192,
+          3,
+          3
+        ],
+        "convs.0.bias": [
+          64
+        ],
+        "reconstruction_I.0.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.0.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.0.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.0.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.1.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.1.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.1.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.1.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.2.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.2.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.2.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.2.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.3.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.3.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.3.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.3.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.4.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.4.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.4.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.4.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.5.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.5.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.5.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.5.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.6.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.6.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.6.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.6.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.7.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.7.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.7.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.7.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.8.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.8.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.8.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.8.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.9.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.9.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.9.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.9.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.10.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.10.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.10.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.10.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.11.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.11.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.11.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.11.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.12.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.12.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.12.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.12.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.13.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.13.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.13.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.13.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.14.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.14.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.14.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.14.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.15.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.15.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.15.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.15.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.16.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.16.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.16.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.16.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.17.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.17.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.17.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.17.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.18.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.18.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.18.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.18.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.19.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.19.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.19.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.19.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.20.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.20.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.20.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.20.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.21.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.21.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.21.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.21.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.22.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.22.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.22.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.22.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.23.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.23.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.23.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.23.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.0.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.0.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.0.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.0.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.1.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.1.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.1.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.1.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.2.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.2.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.2.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.2.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.3.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.3.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.3.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.3.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.4.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.4.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.4.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.4.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.5.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.5.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.5.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.5.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.6.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.6.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.6.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.6.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.7.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.7.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.7.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.7.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.8.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.8.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.8.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.8.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.9.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.9.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.9.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.9.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.10.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.10.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.10.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.10.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.11.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.11.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.11.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.11.conv2.bias": [
+          64
+        ],
+        "conv_h.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "conv_h.bias": [
+          64
+        ],
+        "upconv1.weight": [
+          48,
+          64,
+          3,
+          3
+        ],
+        "upconv1.bias": [
+          48
+        ]
+      },
+      "strict_load": "PASS"
+    },
+    "params_ema": {
+      "present": true,
+      "tensors": 179,
+      "elements": 3110989,
+      "missing": [],
+      "unexpected": [],
+      "shape_mismatches": {},
+      "nonfinite": [],
+      "shapes": {
+        "conv_first.weight": [
+          64,
+          3,
+          3,
+          3
+        ],
+        "conv_first.bias": [
+          64
+        ],
+        "feature_extraction.0.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "feature_extraction.0.conv1.bias": [
+          64
+        ],
+        "feature_extraction.0.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "feature_extraction.0.conv2.bias": [
+          64
+        ],
+        "feature_extraction.1.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "feature_extraction.1.conv1.bias": [
+          64
+        ],
+        "feature_extraction.1.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "feature_extraction.1.conv2.bias": [
+          64
+        ],
+        "feature_extraction.2.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "feature_extraction.2.conv1.bias": [
+          64
+        ],
+        "feature_extraction.2.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "feature_extraction.2.conv2.bias": [
+          64
+        ],
+        "deform_align.conv_offset.0.weight": [
+          16,
+          194,
+          3,
+          3
+        ],
+        "deform_align.conv_offset.0.bias": [
+          16
+        ],
+        "deform_align.conv_offset.2.weight": [
+          16,
+          16,
+          3,
+          3
+        ],
+        "deform_align.conv_offset.2.bias": [
+          16
+        ],
+        "deform_align.conv_offset.4.weight": [
+          16,
+          16,
+          3,
+          3
+        ],
+        "deform_align.conv_offset.4.bias": [
+          16
+        ],
+        "deform_align.conv_offset.6.weight": [
+          12,
+          16,
+          1,
+          1
+        ],
+        "deform_align.conv_offset.6.bias": [
+          12
+        ],
+        "deform_align.dcn.weight": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "conv_weight_l.0.weight": [
+          64,
+          1,
+          1,
+          1
+        ],
+        "conv_weight_l.0.bias": [
+          64
+        ],
+        "conv_weight_l.2.weight": [
+          64,
+          64,
+          1,
+          1
+        ],
+        "conv_weight_l.2.bias": [
+          64
+        ],
+        "conv_weight_l.4.weight": [
+          1,
+          64,
+          1,
+          1
+        ],
+        "conv_weight_l.4.bias": [
+          1
+        ],
+        "convs.0.weight": [
+          64,
+          192,
+          3,
+          3
+        ],
+        "convs.0.bias": [
+          64
+        ],
+        "reconstruction_I.0.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.0.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.0.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.0.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.1.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.1.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.1.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.1.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.2.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.2.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.2.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.2.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.3.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.3.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.3.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.3.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.4.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.4.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.4.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.4.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.5.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.5.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.5.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.5.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.6.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.6.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.6.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.6.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.7.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.7.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.7.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.7.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.8.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.8.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.8.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.8.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.9.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.9.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.9.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.9.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.10.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.10.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.10.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.10.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.11.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.11.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.11.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.11.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.12.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.12.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.12.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.12.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.13.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.13.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.13.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.13.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.14.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.14.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.14.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.14.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.15.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.15.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.15.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.15.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.16.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.16.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.16.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.16.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.17.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.17.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.17.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.17.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.18.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.18.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.18.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.18.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.19.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.19.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.19.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.19.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.20.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.20.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.20.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.20.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.21.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.21.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.21.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.21.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.22.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.22.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.22.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.22.conv2.bias": [
+          64
+        ],
+        "reconstruction_I.23.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.23.conv1.bias": [
+          64
+        ],
+        "reconstruction_I.23.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_I.23.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.0.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.0.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.0.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.0.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.1.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.1.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.1.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.1.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.2.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.2.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.2.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.2.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.3.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.3.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.3.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.3.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.4.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.4.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.4.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.4.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.5.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.5.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.5.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.5.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.6.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.6.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.6.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.6.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.7.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.7.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.7.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.7.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.8.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.8.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.8.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.8.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.9.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.9.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.9.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.9.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.10.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.10.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.10.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.10.conv2.bias": [
+          64
+        ],
+        "reconstruction_P.11.conv1.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.11.conv1.bias": [
+          64
+        ],
+        "reconstruction_P.11.conv2.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "reconstruction_P.11.conv2.bias": [
+          64
+        ],
+        "conv_h.weight": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "conv_h.bias": [
+          64
+        ],
+        "upconv1.weight": [
+          48,
+          64,
+          3,
+          3
+        ],
+        "upconv1.bias": [
+          48
+        ]
+      },
+      "strict_load": "PASS"
+    },
+    "comparison": {
+      "different_tensors": 179,
+      "max_absolute_difference": 9.59634780883789e-05
+    }
+  },
+  "authentic_input_inference": "NOT TESTED",
+  "synthetic_inference": {
+    "status": "PASS",
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "input_shape": [
+      1,
+      3,
+      3,
+      16,
+      24
+    ],
+    "motion": "synthetic zeros",
+    "residual": "synthetic zeros; not codec residuals",
+    "frames": [
+      {
+        "output_shape": [
+          1,
+          1,
+          3,
+          64,
+          96
+        ],
+        "state_shapes": [
+          [
+            1,
+            64,
+            16,
+            24
+          ],
+          [
+            1,
+            64,
+            16,
+            24
+          ],
+          [
+            1,
+            3,
+            16,
+            24
+          ]
+        ],
+        "finite": true
+      },
+      {
+        "output_shape": [
+          1,
+          1,
+          3,
+          64,
+          96
+        ],
+        "state_shapes": [
+          [
+            1,
+            64,
+            16,
+            24
+          ],
+          [
+            1,
+            64,
+            16,
+            24
+          ],
+          [
+            1,
+            3,
+            16,
+            24
+          ]
+        ],
+        "finite": true
+      },
+      {
+        "output_shape": [
+          1,
+          1,
+          3,
+          64,
+          96
+        ],
+        "state_shapes": [
+          [
+            1,
+            64,
+            16,
+            24
+          ],
+          [
+            1,
+            64,
+            16,
+            24
+          ],
+          [
+            1,
+            3,
+            16,
+            24
+          ]
+        ],
+        "finite": true
+      }
+    ],
+    "reset": {
+      "output_shape": [
+        1,
+        1,
+        3,
+        64,
+        96
+      ],
+      "state_shapes": [
+        [
+          1,
+          64,
+          16,
+          24
+        ],
+        [
+          1,
+          64,
+          16,
+          24
+        ],
+        [
+          1,
+          3,
+          16,
+          24
+        ]
+      ],
+      "finite": true
+    },
+    "reset_output_max_error": 0.0,
+    "reset_states_exact": true,
+    "branch_calls_including_reset": {
+      "I": 2,
+      "P": 2,
+      "DCN": 2
+    },
+    "dcn_shapes": [
+      {
+        "inputs": [
+          [
+            1,
+            128,
+            16,
+            24
+          ],
+          [
+            1,
+            8,
+            16,
+            24
+          ],
+          [
+            1,
+            4,
+            16,
+            24
+          ]
+        ],
+        "output": [
+          1,
+          128,
+          16,
+          24
+        ]
+      },
+      {
+        "inputs": [
+          [
+            1,
+            128,
+            16,
+            24
+          ],
+          [
+            1,
+            8,
+            16,
+            24
+          ],
+          [
+            1,
+            4,
+            16,
+            24
+          ]
+        ],
+        "output": [
+          1,
+          128,
+          16,
+          24
+        ]
+      }
+    ],
+    "sequence_output_shape": [
+      1,
+      3,
+      3,
+      64,
+      96
+    ],
+    "sequence_vs_step_max_error": 0.0,
+    "peak_allocated_bytes": 27674624,
+    "eval_mode": true,
+    "inference_mode": true
+  }
+}

@@ -1,0 +1,62 @@
+qt.qpa.plugin: Could not find the Qt platform plugin "wayland" in "/home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/plugins"
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+{
+  "mode": "bicubic",
+  "headless": false,
+  "status": "ok",
+  "payload_bytes": 559112,
+  "protocol_bytes": 563804,
+  "decoded_frames": 300,
+  "queue_peak": 6,
+  "unique_render_submissions": 300,
+  "unique_displayed_frames": 300,
+  "displayed_count_scope": "Unique OpenCV imshow/waitKey submissions; headless=0; physical presentation unmeasured",
+  "dropped_frames": 0,
+  "gpu_peak_allocated_bytes": 0,
+  "gpu_peak_reserved_bytes": 0,
+  "errors": [],
+  "decoder_command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-nostdin",
+    "-probesize",
+    "32",
+    "-analyzeduration",
+    "0",
+    "-flags",
+    "low_delay",
+    "-threads",
+    "1",
+    "-f",
+    "mpegts",
+    "-i",
+    "pipe:0",
+    "-map",
+    "0:v:0",
+    "-an",
+    "-fps_mode",
+    "passthrough",
+    "-threads",
+    "1",
+    "-pix_fmt",
+    "rgb24",
+    "-f",
+    "rawvideo",
+    "pipe:1"
+  ],
+  "received_eos": true,
+  "payload_sha256": null,
+  "wall_s_including_model_load": 10.47954042099991,
+  "processing_throughput_fps": 2091.9346131171733
+}

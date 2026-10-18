@@ -1,0 +1,37 @@
+Traceback (most recent call last):
+  File "/home/ibexe/Github/btp-vsr/scripts/evaluate_x4_video.py", line 270, in <module>
+    main()
+  File "/home/ibexe/Github/btp-vsr/scripts/evaluate_x4_video.py", line 201, in main
+    warm = model(x)
+           ^^^^^^^^
+  File "/home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ibexe/Github/btp-vsr/external/nanovsr/models/nanovsr.py", line 144, in forward
+    feats = self.feat_extract(x_flat)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ibexe/Github/btp-vsr/external/nanovsr/models/nanovsr.py", line 32, in forward
+    return self.activation(self.rbr_reparam(x))
+                           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 565, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 560, in _conv_forward
+    return F.conv2d(
+           ^^^^^^^^^
+RuntimeError: Inference tensors do not track version counter.

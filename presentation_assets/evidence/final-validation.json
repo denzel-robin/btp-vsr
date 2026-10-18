@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "comparison_rows": 13,
+  "quality_rows": 31,
+  "valid_prior_timing_runs": 39,
+  "missing_repetitions": 0,
+  "gui_modes_verified": 3,
+  "headless_road_frame_hashes_verified": 300,
+  "metric_rechecks": 186,
+  "backup_frames": 300,
+  "stability_outcome": "failed early after 2400 frames; 720 late drops; no clean EOS",
+  "local_handoff_links": "pass",
+  "preservation": "both environment freezes match prior; both checkpoint SHA256 pass; upstream trees clean",
+  "visual_scope": "two changing-content window captures inspected per mode; not physical-frame validation"
+}

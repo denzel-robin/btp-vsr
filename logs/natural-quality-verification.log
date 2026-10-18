@@ -1,0 +1,2 @@
+PASS: identity, analytic constant-error PSNR/SSIM, symmetry, spatial/temporal shift
+PASS: 162 independent metric rechecks including chunk boundaries and final frames

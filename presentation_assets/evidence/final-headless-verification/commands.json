@@ -1,0 +1,29 @@
+[
+  [
+    "/home/ibexe/Github/btp-vsr/.venv/bin/python",
+    "/home/ibexe/Github/btp-vsr/server/streaming_server.py",
+    "--config",
+    "presentation_assets/configs/headless-verification.json",
+    "--mode",
+    "nanovsr",
+    "--port",
+    "8765",
+    "--report",
+    "/home/ibexe/Github/btp-vsr/presentation_assets/evidence/final-headless-verification/server.json"
+  ],
+  [
+    "/home/ibexe/Github/btp-vsr/.venv/bin/python",
+    "/home/ibexe/Github/btp-vsr/client/streaming_client.py",
+    "--config",
+    "presentation_assets/configs/headless-verification.json",
+    "--mode",
+    "nanovsr",
+    "--port",
+    "8765",
+    "--report",
+    "/home/ibexe/Github/btp-vsr/presentation_assets/evidence/final-headless-verification/client.json",
+    "--processing-delay",
+    "0",
+    "--headless"
+  ]
+]

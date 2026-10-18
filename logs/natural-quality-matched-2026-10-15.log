@@ -1,0 +1,3 @@
+[{"clip": "flowers", "width": 640, "crf": 30.1, "method": "direct", "frames": 270, "bytes": 545388, "kbps": 484.78933333333333, "psnr_db": 30.68706005595935, "ssim": 0.9024053355648404}]
+[{"clip": "road", "width": 640, "crf": 31.1, "method": "direct", "frames": 300, "bytes": 491620, "kbps": 393.296, "psnr_db": 32.33636294907559, "ssim": 0.9020425149355674}]
+[{"clip": "waterfall", "width": 640, "crf": 29.8, "method": "direct", "frames": 300, "bytes": 555728, "kbps": 444.5824, "psnr_db": 29.568244606880057, "ssim": 0.8616875722659552}]

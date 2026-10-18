@@ -1,0 +1,10 @@
+[
+  {
+    "id": "flowers-nanovsr-verify",
+    "asset": "results/natural-2026-10-15/flowers/w320-crf23.ts",
+    "mode": "nanovsr",
+    "verification": true,
+    "warmup_chunks": 3,
+    "repetitions": 1
+  }
+]

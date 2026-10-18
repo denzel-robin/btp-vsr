@@ -1,0 +1,134 @@
+qt.qpa.plugin: Could not find the Qt platform plugin "wayland" in "/home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/plugins"
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+{"frames": 300, "schedule_age_s": 0.41497459699985484, "drops": 0, "queue_age_max_s": 0.3025543449998622}
+{"frames": 600, "schedule_age_s": 0.5539775219999683, "drops": 0, "queue_age_max_s": 0.30609509600026286}
+{"frames": 900, "schedule_age_s": 0.766136964999987, "drops": 0, "queue_age_max_s": 0.30766580099998464}
+{"frames": 1200, "schedule_age_s": 0.799739930999749, "drops": 92, "queue_age_max_s": 0.3082847139999103}
+{"frames": 1500, "schedule_age_s": 0.8207877750000989, "drops": 126, "queue_age_max_s": 0.3031961120000233}
+{"frames": 1800, "schedule_age_s": 0.819776131999788, "drops": 168, "queue_age_max_s": 0.3015855119997468}
+{"frames": 2100, "schedule_age_s": 0.8207334749999973, "drops": 167, "queue_age_max_s": 0.3015273320002052}
+{"frames": 2400, "schedule_age_s": 0.820908301000145, "drops": 167, "queue_age_max_s": 0.30188402300018424}
+{
+  "mode": "nanovsr",
+  "headless": false,
+  "status": "error",
+  "payload_bytes": 4522528,
+  "protocol_bytes": 4625002,
+  "decoded_frames": 2407,
+  "queue_peak": 6,
+  "unique_render_submissions": 1680,
+  "unique_displayed_frames": 1680,
+  "displayed_count_scope": "Unique OpenCV imshow/waitKey submissions; headless=0; physical presentation unmeasured",
+  "dropped_frames": 720,
+  "gpu_peak_allocated_bytes": 376262144,
+  "gpu_peak_reserved_bytes": 545259520,
+  "errors": [
+    "RuntimeError('stability guard: persistent >1.5s schedule age or >50% drops over three 10s windows')",
+    "receiver: EOFError('truncated stream: expected 5, got 0 bytes')"
+  ],
+  "model_load_s": 1.3941102040002988,
+  "warmup_chunks": 3,
+  "warmup_s": 0.4457319230000394,
+  "checkpoint_sha256": "be3df12f2a0d99d9699656aa4a85a51c119663aa84c7040ac6580a0215d0b00e",
+  "decoder_command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-nostdin",
+    "-probesize",
+    "32",
+    "-analyzeduration",
+    "0",
+    "-flags",
+    "low_delay",
+    "-threads",
+    "1",
+    "-f",
+    "mpegts",
+    "-i",
+    "pipe:0",
+    "-map",
+    "0:v:0",
+    "-an",
+    "-fps_mode",
+    "passthrough",
+    "-threads",
+    "1",
+    "-pix_fmt",
+    "rgb24",
+    "-f",
+    "rawvideo",
+    "pipe:1"
+  ],
+  "stability_windows": [
+    {
+      "frames": 300,
+      "schedule_age_s": 0.41497459699985484,
+      "drops": 0,
+      "queue_age_max_s": 0.3025543449998622
+    },
+    {
+      "frames": 600,
+      "schedule_age_s": 0.5539775219999683,
+      "drops": 0,
+      "queue_age_max_s": 0.30609509600026286
+    },
+    {
+      "frames": 900,
+      "schedule_age_s": 0.766136964999987,
+      "drops": 0,
+      "queue_age_max_s": 0.30766580099998464
+    },
+    {
+      "frames": 1200,
+      "schedule_age_s": 0.799739930999749,
+      "drops": 92,
+      "queue_age_max_s": 0.3082847139999103
+    },
+    {
+      "frames": 1500,
+      "schedule_age_s": 0.8207877750000989,
+      "drops": 126,
+      "queue_age_max_s": 0.3031961120000233
+    },
+    {
+      "frames": 1800,
+      "schedule_age_s": 0.819776131999788,
+      "drops": 168,
+      "queue_age_max_s": 0.3015855119997468
+    },
+    {
+      "frames": 2100,
+      "schedule_age_s": 0.8207334749999973,
+      "drops": 167,
+      "queue_age_max_s": 0.3015273320002052
+    },
+    {
+      "frames": 2400,
+      "schedule_age_s": 0.820908301000145,
+      "drops": 167,
+      "queue_age_max_s": 0.30188402300018424
+    }
+  ],
+  "payload_sha256": null,
+  "wall_s_including_model_load": 82.86310425300007,
+  "processing_throughput_fps": 31.63431314806962
+}
+Traceback (most recent call last):
+  File "/home/ibexe/Github/btp-vsr/client/streaming_client.py", line 305, in <module>
+    if __name__ == '__main__':
+        ^^^^^^
+  File "/home/ibexe/Github/btp-vsr/client/streaming_client.py", line 261, in main
+    if len(windows) == 3 and all(v['schedule_age_s'] > 1.5 or v['drops'] > 150 for v in windows):
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: stability guard: persistent >1.5s schedule age or >50% drops over three 10s windows

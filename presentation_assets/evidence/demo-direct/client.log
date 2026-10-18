@@ -1,0 +1,12 @@
+qt.qpa.plugin: Could not find the Qt platform plugin "wayland" in "/home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/plugins"
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/ibexe/Github/btp-vsr/.venv/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+import: no window with specified ID exists 'BTP streaming': Resource temporarily unavailable @ error/xwindow.c/XImportImage/4950.

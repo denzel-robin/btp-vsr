@@ -1,0 +1,12 @@
+[
+  {
+    "run": "streaming-main/waterfall-nanovsr-cold-repeat2-r1",
+    "status": "error",
+    "errors": [
+      "RuntimeError('playback cancelled by Escape')",
+      "receiver: EOFError('truncated stream: expected 5, got 0 bytes')"
+    ],
+    "decoded": 196,
+    "submitted": 186
+  }
+]

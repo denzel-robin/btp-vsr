@@ -1,0 +1,107 @@
+{
+  "counts": {
+    "verification": 3,
+    "completed": 39,
+    "excluded": 10,
+    "failed": 1
+  },
+  "missing_repetitions": 0,
+  "groups": [
+    {
+      "clip": "flowers",
+      "mode": "bicubic",
+      "warmup_chunks": 0,
+      "buffer_ms": 350.0,
+      "repetitions": 3
+    },
+    {
+      "clip": "flowers",
+      "mode": "direct",
+      "warmup_chunks": 0,
+      "buffer_ms": 350.0,
+      "repetitions": 3
+    },
+    {
+      "clip": "flowers",
+      "mode": "nanovsr",
+      "warmup_chunks": 0,
+      "buffer_ms": 350.0,
+      "repetitions": 3
+    },
+    {
+      "clip": "road",
+      "mode": "bicubic",
+      "warmup_chunks": 0,
+      "buffer_ms": 350.0,
+      "repetitions": 3
+    },
+    {
+      "clip": "road",
+      "mode": "direct",
+      "warmup_chunks": 0,
+      "buffer_ms": 350.0,
+      "repetitions": 3
+    },
+    {
+      "clip": "road",
+      "mode": "nanovsr",
+      "warmup_chunks": 0,
+      "buffer_ms": 350.0,
+      "repetitions": 3
+    },
+    {
+      "clip": "waterfall",
+      "mode": "bicubic",
+      "warmup_chunks": 0,
+      "buffer_ms": 350.0,
+      "repetitions": 3
+    },
+    {
+      "clip": "waterfall",
+      "mode": "direct",
+      "warmup_chunks": 0,
+      "buffer_ms": 350.0,
+      "repetitions": 3
+    },
+    {
+      "clip": "waterfall",
+      "mode": "nanovsr",
+      "warmup_chunks": 0,
+      "buffer_ms": 350.0,
+      "repetitions": 3
+    },
+    {
+      "clip": "road",
+      "mode": "direct",
+      "warmup_chunks": 0,
+      "buffer_ms": 150.0,
+      "repetitions": 3
+    },
+    {
+      "clip": "flowers",
+      "mode": "nanovsr",
+      "warmup_chunks": 3,
+      "buffer_ms": 350.0,
+      "repetitions": 3
+    },
+    {
+      "clip": "road",
+      "mode": "nanovsr",
+      "warmup_chunks": 3,
+      "buffer_ms": 350.0,
+      "repetitions": 3
+    },
+    {
+      "clip": "waterfall",
+      "mode": "nanovsr",
+      "warmup_chunks": 3,
+      "buffer_ms": 350.0,
+      "repetitions": 3
+    }
+  ],
+  "replacement": [
+    "streaming-continuation/flowers-direct-cold-repeat1-replacement-r1",
+    "streaming-continuation/flowers-direct-cold-repeat2-r1",
+    "streaming-continuation/flowers-direct-cold-repeat3-r1"
+  ]
+}

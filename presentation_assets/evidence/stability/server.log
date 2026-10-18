@@ -1,0 +1,10 @@
+READY 127.0.0.1:8765
+Traceback (most recent call last):
+  File "/home/ibexe/Github/btp-vsr/server/streaming_server.py", line 107, in <module>
+    main()
+  File "/home/ibexe/Github/btp-vsr/server/streaming_server.py", line 75, in main
+    report['protocol_bytes'] += send(conn, b'D', data)
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ibexe/Github/btp-vsr/scripts/streaming_common.py", line 35, in send
+    sock.sendall(packet)
+BrokenPipeError: [Errno 32] Broken pipe

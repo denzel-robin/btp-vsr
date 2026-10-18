@@ -1,0 +1,2 @@
+Completed direct: /home/ibexe/Github/btp-vsr/results/natural-2026-10-15/stream-verification-direct/flowers-direct-verify-r1
+PASS results/natural-2026-10-15/stream-verification-direct/flowers-direct-verify-r1: 270 frame timestamps, bitstream bytes, decoded hashes, all reconstruction hashes match offline outputs

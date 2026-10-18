@@ -1,0 +1,54 @@
+run,status,reason
+stream-verification-bicubic/flowers-bicubic-verify-r1,verification,
+stream-verification-direct/flowers-direct-verify-r1,verification,
+stream-verification-nanovsr/flowers-nanovsr-verify-r1,verification,
+streaming-continuation/flowers-bicubic-cold-repeat3-r1,completed,
+streaming-continuation/flowers-direct-cold-repeat1-replacement-r1,completed,
+streaming-continuation/flowers-direct-cold-repeat2-r1,completed,
+streaming-continuation/flowers-direct-cold-repeat3-r1,completed,
+streaming-continuation/flowers-nanovsr-cold-repeat3-r1,completed,
+streaming-continuation/flowers-nanovsr-warm-repeat3-r1,excluded,"Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup."
+streaming-continuation/road-bicubic-cold-repeat3-r1,completed,
+streaming-continuation/road-direct-cold-repeat3-r1,completed,
+streaming-continuation/road-nanovsr-cold-repeat3-r1,completed,
+streaming-continuation/road-nanovsr-warm-repeat3-r1,excluded,"Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup."
+streaming-continuation/waterfall-bicubic-cold-repeat3-r1,completed,
+streaming-continuation/waterfall-direct-cold-repeat3-r1,completed,
+streaming-continuation/waterfall-nanovsr-cold-repeat2-r1,completed,
+streaming-continuation/waterfall-nanovsr-cold-repeat3-r1,completed,
+streaming-continuation/waterfall-nanovsr-warm-repeat2-r1,excluded,"Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup."
+streaming-continuation/waterfall-nanovsr-warm-repeat3-r1,excluded,"Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup."
+streaming-lower150/road-direct-lower150-r1,completed,
+streaming-lower150/road-direct-lower150-r2,completed,
+streaming-lower150/road-direct-lower150-r3,completed,
+streaming-main/flowers-bicubic-cold-repeat1-r1,completed,
+streaming-main/flowers-bicubic-cold-repeat2-r1,completed,
+streaming-main/flowers-direct-cold-repeat1-r1,excluded,"CPU metric verifier overlapped this first timing run (verifier finished 08:18:34; run started 08:18:22). Retain evidence, exclude from aggregates, replace after serial batch."
+streaming-main/flowers-nanovsr-cold-repeat1-r1,completed,
+streaming-main/flowers-nanovsr-cold-repeat2-r1,completed,
+streaming-main/flowers-nanovsr-warm-repeat1-r1,excluded,"Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup."
+streaming-main/flowers-nanovsr-warm-repeat2-r1,excluded,"Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup."
+streaming-main/road-bicubic-cold-repeat1-r1,completed,
+streaming-main/road-bicubic-cold-repeat2-r1,completed,
+streaming-main/road-direct-cold-repeat1-r1,completed,
+streaming-main/road-direct-cold-repeat2-r1,completed,
+streaming-main/road-nanovsr-cold-repeat1-r1,completed,
+streaming-main/road-nanovsr-cold-repeat2-r1,completed,
+streaming-main/road-nanovsr-warm-repeat1-r1,excluded,"Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup."
+streaming-main/road-nanovsr-warm-repeat2-r1,excluded,"Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup."
+streaming-main/waterfall-bicubic-cold-repeat1-r1,completed,
+streaming-main/waterfall-bicubic-cold-repeat2-r1,completed,
+streaming-main/waterfall-direct-cold-repeat1-r1,completed,
+streaming-main/waterfall-direct-cold-repeat2-r1,completed,
+streaming-main/waterfall-nanovsr-cold-repeat1-r1,completed,
+streaming-main/waterfall-nanovsr-warm-repeat1-r1,excluded,"Model-only contiguous warmup; retain as narrower startup experiment, replaced in main comparison by exact-layout full-processing warmup."
+streaming-pipeline-warm/flowers-nanovsr-pipeline-warm-repeat1-r1,completed,
+streaming-pipeline-warm/flowers-nanovsr-pipeline-warm-repeat2-r1,completed,
+streaming-pipeline-warm/flowers-nanovsr-pipeline-warm-repeat3-r1,completed,
+streaming-pipeline-warm/road-nanovsr-pipeline-warm-repeat1-r1,completed,
+streaming-pipeline-warm/road-nanovsr-pipeline-warm-repeat2-r1,completed,
+streaming-pipeline-warm/road-nanovsr-pipeline-warm-repeat3-r1,completed,
+streaming-pipeline-warm/waterfall-nanovsr-pipeline-warm-repeat1-r1,completed,
+streaming-pipeline-warm/waterfall-nanovsr-pipeline-warm-repeat2-r1,completed,
+streaming-pipeline-warm/waterfall-nanovsr-pipeline-warm-repeat3-r1,completed,
+streaming-main/waterfall-nanovsr-cold-repeat2-r1,failed,"[""RuntimeError('playback cancelled by Escape')"", ""receiver: EOFError('truncated stream: expected 5, got 0 bytes')""]"

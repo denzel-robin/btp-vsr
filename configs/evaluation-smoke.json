@@ -1,0 +1,11 @@
+{
+  "source": "videos/original/test.mp4",
+  "source_kind": "synthetic_smoke",
+  "provenance": "Existing local 640x360 test-pattern clip; original creation command unknown. Visually inspected; not natural footage.",
+  "frames": 31,
+  "chunk_length": 15,
+  "warmup_per_chunk_shape": 2,
+  "crfs": [18, 23, 28],
+  "gop": 30,
+  "checkpoint": "external/nanovsr/checkpoints/nanovsr_226k.pth"
+}

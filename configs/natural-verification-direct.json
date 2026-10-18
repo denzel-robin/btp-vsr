@@ -1,0 +1,9 @@
+[
+  {
+    "id": "flowers-direct-verify",
+    "asset": "results/natural-2026-10-15/flowers/w640-crf30.1.ts",
+    "mode": "direct",
+    "verification": true,
+    "repetitions": 1
+  }
+]

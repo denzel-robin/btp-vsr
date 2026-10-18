@@ -1,0 +1,23 @@
+{
+  "status": "error",
+  "errors": [
+    "RuntimeError('stability guard: persistent >1.5s schedule age or >50% drops over three 10s windows')",
+    "receiver: EOFError('truncated stream: expected 5, got 0 bytes')"
+  ],
+  "frames": 2400,
+  "decoded": 2407,
+  "submissions": 1680,
+  "drops": 720,
+  "submitted_fraction_of_planned_9000_percent": 18.666666666666668,
+  "processed_prefix_completeness_percent": 70.0,
+  "active_submission_fps": 20.874862758231913,
+  "processing_fps": 31.63431314806962,
+  "latency_p50_ms": 751.4533600001414,
+  "latency_p95_ms": 851.9165518997852,
+  "latency_max_ms": 852.8254170005312,
+  "queue_peak": 6,
+  "queue_age_max_ms": 308.2847139999103,
+  "gpu_peak_allocated_bytes": 376262144,
+  "gpu_peak_reserved_bytes": 545259520,
+  "received_eos": false
+}

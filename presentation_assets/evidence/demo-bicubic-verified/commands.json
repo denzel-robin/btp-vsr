@@ -1,0 +1,28 @@
+[
+  [
+    "/home/ibexe/Github/btp-vsr/.venv/bin/python",
+    "/home/ibexe/Github/btp-vsr/server/streaming_server.py",
+    "--config",
+    "presentation_assets/configs/bicubic.json",
+    "--mode",
+    "bicubic",
+    "--port",
+    "8765",
+    "--report",
+    "/home/ibexe/Github/btp-vsr/presentation_assets/evidence/demo-bicubic-verified/server.json"
+  ],
+  [
+    "/home/ibexe/Github/btp-vsr/.venv/bin/python",
+    "/home/ibexe/Github/btp-vsr/client/streaming_client.py",
+    "--config",
+    "presentation_assets/configs/bicubic.json",
+    "--mode",
+    "bicubic",
+    "--port",
+    "8765",
+    "--report",
+    "/home/ibexe/Github/btp-vsr/presentation_assets/evidence/demo-bicubic-verified/client.json",
+    "--processing-delay",
+    "0"
+  ]
+]

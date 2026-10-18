@@ -1,0 +1,11 @@
+{
+  "valid_timing_runs": 39,
+  "quality_rows": 31,
+  "summary_latency_and_bytes_recomputed": true,
+  "common_playback_size": [
+    640,
+    360
+  ],
+  "bc_identical_asset_verified": true,
+  "missing_repetitions": 0
+}

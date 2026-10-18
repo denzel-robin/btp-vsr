@@ -1,0 +1,11 @@
+[
+  {
+    "id": "road-direct-lower150",
+    "asset": "results/natural-2026-10-15/road/w640-crf30.4.ts",
+    "mode": "direct",
+    "warmup_chunks": 0,
+    "warmup_pipeline": false,
+    "buffer_s": 0.15,
+    "repetitions": 3
+  }
+]

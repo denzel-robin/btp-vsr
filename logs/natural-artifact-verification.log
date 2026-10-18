@@ -1,0 +1,1 @@
+PASS: all 3 source/reference hashes; 31 quality rows / 9000 frame scores; 39 valid GUI timing runs / 11340 unique submissions; bytes, EOS, order, bounded queues; timed capture/hashing disabled

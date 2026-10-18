@@ -1,0 +1,103 @@
+{
+  "input": "synthetic seeded random; capacity only",
+  "input_shape": [
+    1,
+    3,
+    3,
+    180,
+    320
+  ],
+  "native_output": [
+    1,
+    3,
+    3,
+    720,
+    1280
+  ],
+  "playback": [
+    640,
+    360
+  ],
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "torch": "2.14.0+cu130",
+  "load_s": 1.4662177029999839,
+  "rows": [
+    {
+      "iteration": 0,
+      "model_ms": 217.72064208984375,
+      "application_processing_ms": 307.874184999946,
+      "resize_ms": 16.811075000077835
+    },
+    {
+      "iteration": 1,
+      "model_ms": 77.6302719116211,
+      "application_processing_ms": 98.35663400008343,
+      "resize_ms": 14.777297000136969
+    },
+    {
+      "iteration": 2,
+      "model_ms": 73.55494689941406,
+      "application_processing_ms": 92.95671700010644,
+      "resize_ms": 14.738326000042434
+    },
+    {
+      "iteration": 3,
+      "model_ms": 72.48281860351562,
+      "application_processing_ms": 92.07985900002313,
+      "resize_ms": 14.897913000140761
+    },
+    {
+      "iteration": 4,
+      "model_ms": 72.29638671875,
+      "application_processing_ms": 92.19977699990523,
+      "resize_ms": 14.893652999944607
+    },
+    {
+      "iteration": 5,
+      "model_ms": 72.97433471679688,
+      "application_processing_ms": 92.60513599997466,
+      "resize_ms": 14.94973600006233
+    },
+    {
+      "iteration": 6,
+      "model_ms": 72.43244934082031,
+      "application_processing_ms": 92.17673000011928,
+      "resize_ms": 15.070491000187758
+    },
+    {
+      "iteration": 7,
+      "model_ms": 72.49817657470703,
+      "application_processing_ms": 92.46182100014266,
+      "resize_ms": 15.128249000099458
+    },
+    {
+      "iteration": 8,
+      "model_ms": 72.73677062988281,
+      "application_processing_ms": 92.20131300003231,
+      "resize_ms": 14.75264300006529
+    },
+    {
+      "iteration": 9,
+      "model_ms": 72.30361938476562,
+      "application_processing_ms": 91.52895100010028,
+      "resize_ms": 14.640897000163022
+    },
+    {
+      "iteration": 10,
+      "model_ms": 72.70912170410156,
+      "application_processing_ms": 92.16101499987417,
+      "resize_ms": 14.794547999827046
+    },
+    {
+      "iteration": 11,
+      "model_ms": 72.55347442626953,
+      "application_processing_ms": 92.07245599986891,
+      "resize_ms": 14.672045999986949
+    }
+  ],
+  "peak_allocated": 376262144,
+  "peak_reserved": 545259520,
+  "device_total": 4007591936,
+  "warm_processing_fps": 32.522307389407246,
+  "maintains_30fps_processing": true
+}

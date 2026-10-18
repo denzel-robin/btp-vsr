@@ -1,0 +1,28 @@
+[
+  [
+    "/home/ibexe/Github/btp-vsr/.venv/bin/python",
+    "/home/ibexe/Github/btp-vsr/server/streaming_server.py",
+    "--config",
+    "presentation_assets/configs/stability.json",
+    "--mode",
+    "nanovsr",
+    "--port",
+    "8765",
+    "--report",
+    "/home/ibexe/Github/btp-vsr/presentation_assets/evidence/stability/server.json"
+  ],
+  [
+    "/home/ibexe/Github/btp-vsr/.venv/bin/python",
+    "/home/ibexe/Github/btp-vsr/client/streaming_client.py",
+    "--config",
+    "presentation_assets/configs/stability.json",
+    "--mode",
+    "nanovsr",
+    "--port",
+    "8765",
+    "--report",
+    "/home/ibexe/Github/btp-vsr/presentation_assets/evidence/stability/client.json",
+    "--processing-delay",
+    "0"
+  ]
+]

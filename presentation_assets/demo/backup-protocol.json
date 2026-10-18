@@ -1,0 +1,39 @@
+{
+  "kind": "offline precomputed comparison; not screen capture or live playback",
+  "frames": 300,
+  "fps": 30,
+  "source_arrays": [
+    "results/natural-2026-10-15/road/reference.npy",
+    "results/natural-2026-10-15/road/w640-crf30.4-direct.npy",
+    "results/natural-2026-10-15/road/w320-crf23-bicubic.npy",
+    "results/natural-2026-10-15/road/w320-crf23-nanovsr.npy"
+  ],
+  "command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "rgb24",
+    "-s",
+    "1280x820",
+    "-r",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "veryfast",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-threads",
+    "1",
+    "/home/ibexe/Github/btp-vsr/presentation_assets/demo/OFFLINE-road-comparison.mp4"
+  ],
+  "scoring": "Preview lossy encoding never scored; metrics from original RGB arrays."
+}

@@ -1,0 +1,25 @@
+{
+  "source": "results/natural-2026-10-15/road/reference.nut",
+  "source_kind": "natural_reference_from_compressed_source",
+  "frames": 300,
+  "transmission_size": [
+    320,
+    180
+  ],
+  "playback_size": [
+    640,
+    360
+  ],
+  "crf": 30.4,
+  "preset": "veryfast",
+  "chunk_size": 3,
+  "queue_frames": 6,
+  "playout_delay_s": 0.35,
+  "drop_late_s": 0.5,
+  "checkpoint": "external/nanovsr/checkpoints/nanovsr_226k.pth",
+  "encoded_asset": "results/natural-2026-10-15/road/w640-crf30.4.ts",
+  "verification": false,
+  "warmup_chunks": 0,
+  "warmup_pipeline": false,
+  "demo_labels": true
+}
