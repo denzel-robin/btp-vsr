@@ -1,0 +1,25 @@
+{
+  "id": "road",
+  "category": "camera/object motion",
+  "source": "videos/natural-source/road.ogv",
+  "start": 10,
+  "frames": 300,
+  "page": "https://commons.wikimedia.org/wiki/File:Narrowing_2%2B1_road.ogv",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Narrowing_2%2B1_road.ogv",
+  "author": "LA2",
+  "original_url": "https://commons.wikimedia.org/wiki/User:LA2",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "sha256": "07bcdba5b86f9328e540c30e91232a9d5490f331714d94e35a6838464acde308",
+  "source_resolution": [
+    1280,
+    720
+  ],
+  "reference_resolution": [
+    1280,
+    720
+  ],
+  "reference_sha256": "b3f4497400cb984d72f279a2ebfb85d53f53803008eb773b6565931c4af91854",
+  "reference_fps": 30,
+  "conversion": "Source seconds10-20; fps50 to30 by timestamp-based nearest duplication/drop; no spatial scaling; lossless RGB FFV1/NUT. Already compressed source, not pristine ground truth."
+}

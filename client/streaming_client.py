@@ -64,8 +64,12 @@ def main():
             raise ValueError('native_output requires NanoVSR and playback_size equal to 4x transmission_size')
     dashboard = None
     if a.stats:
-        from demo_stats import DemoStats
-        dashboard = DemoStats(c, a.mode)
+        if c.get('comparison_reference'):
+            from comparison_view import ComparisonView
+            dashboard = ComparisonView(c, a.mode)
+        else:
+            from demo_stats import DemoStats
+            dashboard = DemoStats(c, a.mode)
     verify = c.get('verification', True)
     Path(a.report).parent.mkdir(parents=True, exist_ok=True)
     report = dict(config=c, mode=a.mode, headless=a.headless, status='error', frames=[], chunks=[],
@@ -76,6 +80,7 @@ def main():
     report['presentation_stats_enabled'] = a.stats
     report['native_output'] = native_output
     report['output_size'] = c['playback_size']
+    report['comparison_view'] = bool(dashboard and c.get('comparison_reference'))
     stop = threading.Event()
     q = queue.Queue(c['queue_frames'])
     proc = sock = None
@@ -247,7 +252,8 @@ def main():
                     time.sleep(remaining)
                 dropped = time.monotonic() - target > c['drop_late_s']
                 if not dropped and not a.headless:
-                    display = dashboard.draw(frame, report) if dashboard else cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+                    view_args = dict(decoded_rgb=decoded_frame, frame_index=i) if report['comparison_view'] else {}
+                    display = dashboard.draw(frame, report, **view_args) if dashboard else cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
                     cv2.imshow('BTP streaming', display)
                     if cv2.waitKey(1) & 255 == 27:
                         raise RuntimeError('playback cancelled by Escape')
@@ -287,7 +293,8 @@ def main():
         assert [f['index'] for f in report['frames']] == list(range(len(pts))), 'frame count/order mismatch'
         report['status'] = 'ok'
         if dashboard:
-            summary = dashboard.draw(outputs[-1], report, complete=True)
+            view_args = dict(decoded_rgb=decoded_frame, frame_index=i) if report['comparison_view'] else {}
+            summary = dashboard.draw(outputs[-1], report, complete=True, **view_args)
             cv2.imwrite(str(Path(a.report).with_name('demo-summary.png')), summary)
             # EOS summary is outside all per-frame render events and counts.
             if not a.headless:

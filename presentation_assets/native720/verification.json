@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "summary_rows": 3,
+  "all_frame_rows": 900,
+  "independent_boundary_frame_rechecks": 12,
+  "lr_bitstream_identical": true,
+  "native_resolution": [
+    1280,
+    720
+  ],
+  "streaming_verification": "PASS:300 native outputs and decoded hashes match offline; timestamps, bytes, EOS/order verified; no final resize",
+  "headless_submissions": 300,
+  "headless_drops": 0
+}

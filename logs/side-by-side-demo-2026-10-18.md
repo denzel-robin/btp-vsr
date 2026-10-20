@@ -1,0 +1,11 @@
+# Synchronized three-panel presentation view
+
+Added `scripts/comparison_view.py` and `presentation_assets/native720/side-by-side.json`. The original pane reads the local aligned reference, validated against all 300 reference frame hashes before connection. The transmitted pane shows the live decoder's actual LR frame; the NanoVSR pane shows the matching live reconstruction. The frame index is passed explicitly from the streaming client; all panels skip late frames together. Reference data are not another network stream.
+
+Full-frame previews are 512x288, labelled as display-only reduction or nearest enlargement. Fixed matched crops at x500/y300, width320/height180 display original and SR pixels 1:1, with LR nearest x4 for visibility. Native model output remains1280x720 with no final spatial reconstruction resize. Live metrics and saved whole-clip quality are separately labelled. Final summary shows the last processed frame, which may have missed its playback deadline.
+
+Validation: Python compilation, full reference hash alignment and native crop pixel-equality checks passed. Composite rendering leaves source/reconstruction pixels unchanged. Initial live demo completed; its screenshot request arrived after the window closed. A later checking attempt was interrupted by the user, who requested reopening. The reopened desktop window was captured and inspected at EOS: all three panels show frame299/source9.967s; text and crops are visible. Screenshot: results/side-by-side-reopened-1792338698/window-check.png.
+
+Visible summary:129/300 unique submissions,171 dropped, last60 submission rate10.4FPS, application latency p50/p95 approximately847/862ms, peak PyTorch allocation358.8MiB. This is a presentation run with extra composite drawing/reference access, not a replacement benchmark or evidence of smooth playback. Only the final window snapshot was inspected; physical display timing and every screen refresh are unmeasured. The saved offline PSNR30.70dB/SSIM0.8910 still score all300 reconstructions, not only surviving submissions.
+
+Launch commands and definitions: presentation_assets/native720/README.md. Existing environments, checkpoints, original comparison results and prior configs are preserved. No new model/training changes.

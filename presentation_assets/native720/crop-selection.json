@@ -1,0 +1,11 @@
+{
+  "frame": 150,
+  "box": [
+    500,
+    300,
+    320,
+    240
+  ],
+  "scale": "native 1:1",
+  "selection": "fixed road/grass region; no metric-based search"
+}

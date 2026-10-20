@@ -1,0 +1,58 @@
+{
+  "playback_size": [
+    1280,
+    720
+  ],
+  "checkpoint_sha256": "be3df12f2a0d99d9699656aa4a85a51c119663aa84c7040ac6580a0215d0b00e",
+  "chunk_size": 3,
+  "reference_sha256": "b3f4497400cb984d72f279a2ebfb85d53f53803008eb773b6565931c4af91854",
+  "metric_protocol": "PASS: identity, analytic constant-error PSNR/SSIM, symmetry, spatial/temporal shift; all frames RGB uint8, float64 PSNR and Gaussian11x11 SSIM; mean per-frame scores",
+  "comparison": "Same CRF23, NOT matched bitrate; B/C identical encoded asset; NanoVSR native x4, no final spatial resize.",
+  "summary": [
+    {
+      "method": "direct",
+      "crf": 23,
+      "frames": 300,
+      "width": 1280,
+      "playback_size": [
+        1280,
+        720
+      ],
+      "bytes": 5057764,
+      "kbps": 4046.2112,
+      "psnr_db": 39.17349829617678,
+      "ssim": 0.979531914342677,
+      "asset_sha256": "560cfa77c0fdaa98c9a9a7621fdf9fc301f271fd1588ce923f9deac20b5ace84"
+    },
+    {
+      "method": "bicubic",
+      "crf": 23,
+      "frames": 300,
+      "width": 320,
+      "playback_size": [
+        1280,
+        720
+      ],
+      "bytes": 564564,
+      "kbps": 451.6512,
+      "psnr_db": 29.53278396274111,
+      "ssim": 0.8765304106325528,
+      "asset_sha256": "83b5ac3499f996325f57fa6779fa8bcdd243cf61246f880237cca9deab34f128"
+    },
+    {
+      "method": "nanovsr",
+      "crf": 23,
+      "frames": 300,
+      "width": 320,
+      "playback_size": [
+        1280,
+        720
+      ],
+      "bytes": 564564,
+      "kbps": 451.6512,
+      "psnr_db": 30.700205051908476,
+      "ssim": 0.8910198114396654,
+      "asset_sha256": "83b5ac3499f996325f57fa6779fa8bcdd243cf61246f880237cca9deab34f128"
+    }
+  ]
+}

@@ -12,6 +12,7 @@ class DemoStats:
     def __init__(self, config, mode):
         self.c, self.mode = config, mode
         self.quality = []
+        self.quality_note = 'Direct is near-matched rate, not equal CRF.'
         self.asset = None
         if config.get('encoded_asset'):
             path = ROOT/config['encoded_asset']
@@ -19,6 +20,16 @@ class DemoStats:
             if hashlib.sha256(path.read_bytes()).hexdigest() != meta['sha256']:
                 raise ValueError('Demo statistics asset hash mismatch')
             self.asset = meta
+            if config.get('quality_results'):
+                measured = json.loads((ROOT/config['quality_results']).read_text())
+                assert measured['playback_size'] == config['playback_size'], 'Quality resolution mismatch'
+                selected = next(r for r in measured['summary'] if r['method'] == mode)
+                assert selected['asset_sha256'] == meta['sha256'] and selected['frames'] == config['frames'], 'Quality asset mismatch'
+                if mode == 'nanovsr':
+                    assert config.get('native_output') and measured['chunk_size'] == config['chunk_size']
+                    assert hashlib.sha256((ROOT/config['checkpoint']).read_bytes()).hexdigest() == measured['checkpoint_sha256']
+                self.quality = measured['summary']
+                self.quality_note = 'CRF23 comparison; NOT matched bitrate.'
             # Only associate archived quality with its original exact asset.
             archive = ROOT/'results/natural-2026-10-15'
             if path.parent.parent == archive and config['playback_size'] == [640, 360]:
@@ -58,7 +69,7 @@ class DemoStats:
         if not self.quality:line('Not measured at this output resolution')
         for r in self.quality:
             line(f"{r['method']:<9} {float(r['kbps']):7.1f}    {float(r['psnr_db']):6.2f}    {float(r['ssim']):.4f}",scale=.44)
-        line('640x360 scores do not apply here.' if native else 'Direct is near-matched rate, not equal CRF.',scale=.43)
+        line(self.quality_note if self.quality else '640x360 scores do not apply here.' if native else 'No aligned quality available.',scale=.43)
         line('LIVE SESSION'+(' | COMPLETE' if complete else ' | previous submitted frames'), (110,220,255), .47)
         fs=report['frames'];shown=[f for f in fs if not f['dropped']]
         recent=shown[-60:]
